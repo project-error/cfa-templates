@@ -7,7 +7,7 @@ const client = {
     minimize: true
   },
   resolve: {
-    extenstions: ['.js']
+    extensions: ['.js']
   },
   output: { 
     path: path.resolve(__dirname, 'dist'),
@@ -21,7 +21,7 @@ const server = {
     minimize: true
   },
   resolve: {
-    extenstions: ['.js']
+    extensions: ['.js']
   },
   output: { 
     path: path.resolve(__dirname, 'dist'),
