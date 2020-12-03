@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "your-name",
-  "private": "true"
+  "private": "true",
+  "scripts": {
+    "build": "webpack --color --progress"
+  }
 }
