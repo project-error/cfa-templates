@@ -11,7 +11,7 @@ const client = {
   },
   output: { 
     path: path.resolve(__dirname, 'dist'),
-    filename: '[contnethash].client.js'
+    filename: '[contenthash].client.js'
   }
 }
 
@@ -25,7 +25,7 @@ const server = {
   },
   output: { 
     path: path.resolve(__dirname, 'dist'),
-    filename: '[contnethash].server.js'
+    filename: '[contenthash].server.js'
   }
 }
 
