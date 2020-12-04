@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "shit",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --color --progress"
+  },
   "dependencies": {
     "@citizenfx/client": "^1.0.3266-1",
     "@citizenfx/server": "^1.0.3266-1",
