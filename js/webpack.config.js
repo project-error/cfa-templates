@@ -1,6 +1,8 @@
 //const webpack = require('webpack');
 const path = require("path")
 
+const buildPath = path.resolve(__dirname, "dist");
+
 const client = {
   entry: './client/client.js',
   optimization: {
@@ -10,7 +12,7 @@ const client = {
     extensions: ['.js']
   },
   output: { 
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(buildPath, 'client'),
     filename: '[contenthash].client.js'
   }
 }
@@ -24,7 +26,7 @@ const server = {
     extensions: ['.js']
   },
   output: { 
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(buildPath, 'server'),
     filename: '[contenthash].server.js'
   }
 }
