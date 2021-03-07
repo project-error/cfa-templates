@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --color --progress",
-    "watch": "webpack --mode developement --watch true"
+    "watch": "webpack --mode development --watch true"
   },
   "dependencies": {
     "@citizenfx/client": "^1.0.3575-1",
