@@ -9,7 +9,7 @@ const server = {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
+        test: /\.ts$/,
         use: ["ts-loader"],
         exclude: /node_modules/,
       },
@@ -30,7 +30,7 @@ const server = {
     minimize: true,
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".js"],
+    extensions: [".ts", ".js"],
   },
   output: {
     filename: "[contenthash].server.js",
@@ -44,7 +44,7 @@ const client = {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
+        test: /\.ts$/,
         use: ["ts-loader"],
         exclude: /node_modules/,
       },
@@ -64,7 +64,7 @@ const client = {
     minimize: true,
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".js"],
+    extensions: [".ts", ".js"],
   },
   output: {
     filename: "[contenthash].client.js",
